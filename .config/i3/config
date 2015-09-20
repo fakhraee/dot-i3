@@ -139,7 +139,8 @@ floating_modifier $mod
 bar {
     position top
     #status_command i3status
-    status_command py3status -c ~/.config/i3status/config
+    status_command py3status -c ~/.config/i3status/config.pc
+    #status_command py3status -c ~/.config/i3status/config.laptop
     #status_command i3blocks
     #mode <dock|hide|invisible>
     mode dock 
