@@ -118,7 +118,7 @@ assign [class="slimjet"] 2
 ## Automatically starting applications on i3 startup
 exec nm-applet
 exec clipit 
-exec megasync
+exec pasystray 
 #exec flashpeak-slimjet 
 
 ## Focus follows mouse
