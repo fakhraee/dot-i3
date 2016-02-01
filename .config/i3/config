@@ -122,7 +122,7 @@ exec megasync
 #exec flashpeak-slimjet 
 
 ## Focus follows mouse
-focus_follows_mouse no
+focus_follows_mouse yes
 
 ## Focus wrapping
 force_focus_wrapping no 
