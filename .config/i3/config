@@ -119,7 +119,7 @@ bindsym $mod+b border toggle
 assign [class="slimjet"] 2
 
 ## Automatically starting applications on i3 startup
-exec --no-startup-id setxkbmap -layout us,ir -option grp:alt_shift_toggle"
+exec --no-startup-id setxkbmap -layout us,ir -option "grp:alt_shift_toggle"
 exec --no-startup-id kbdd 
 exec --no-startup-id pasystray 
 exec clipit 
