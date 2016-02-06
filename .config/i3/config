@@ -112,13 +112,18 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+# border
+bindsym $mod+b border toggle
+
 ## Automatically putting clients on specific workspaces
 assign [class="slimjet"] 2
 
 ## Automatically starting applications on i3 startup
-exec nm-applet
+exec --no-startup-id setxkbmap -layout us,ir -option grp:alt_shift_toggle"
+exec --no-startup-id kbdd 
+exec --no-startup-id pasystray 
 exec clipit 
-exec pasystray 
+#exec nm-applet
 #exec flashpeak-slimjet 
 
 ## Focus follows mouse
@@ -162,3 +167,4 @@ bar {
         urgent_workspace   #ffffff #900000
     }
 }
+
