@@ -14,9 +14,10 @@ general {
 #order += "netdata"
 order += "net_rate"
 order += cpu_usage
-order += "load"
+order += sysdata
+#order += "load"
 #order += "ipv6"
-#order += "disk /"
+order += "disk /"
 #order += "run_watch DHCP"
 #order += "run_watch VPN"
 #order += "wireless wlan0"
@@ -26,6 +27,10 @@ order += "tztime local"
 
 cpu_usage {
         format = %usage
+}
+
+sysdata {
+	format = %used_mem_percent
 }
 
 wireless wlan0 {
