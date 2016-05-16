@@ -117,6 +117,7 @@ bindsym $mod+b border toggle
 
 ## Automatically putting clients on specific workspaces
 assign [class="slimjet"] 2
+assign [class="Wine"] 9
 
 ## Automatically starting applications on i3 startup
 exec --no-startup-id setxkbmap -layout us,ir -option "grp:alt_shift_toggle"
