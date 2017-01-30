@@ -2,6 +2,7 @@
 
 ## Variables
 set $mod Mod4
+workspace_layout stacking
 
 ## Fonts
 # Font for window titles. Will also be used by the bar unless a different font
