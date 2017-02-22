@@ -15,6 +15,8 @@ workspace_layout stacking
 font pango:DejaVu Sans Mono 8 
 
 ## Keyboard bindings
+# rename
+bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P 'New name: '
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
