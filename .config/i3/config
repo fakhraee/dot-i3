@@ -123,12 +123,13 @@ bindsym $mod+b border toggle
 #assign [class="Wine"] 9
 
 ## Automatically starting applications on i3 startup
+exec dex -ae i3
 exec --no-startup-id setxkbmap -layout us,ir -option "grp:alt_shift_toggle"
-exec --no-startup-id kbdd 
-exec --no-startup-id pasystray 
-exec clipit 
+exec --no-startup-id kbdd
+#exec --no-startup-id pasystray
+#exec clipit
 #exec nm-applet
-#exec flashpeak-slimjet 
+#exec flashpeak-slimjet
 
 ## Focus follows mouse
 focus_follows_mouse yes
