@@ -173,3 +173,4 @@ bar {
     }
 }
 exec i3-msg workspace 9
+for_window [workspace="5"] floating enable
