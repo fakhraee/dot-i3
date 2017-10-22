@@ -174,5 +174,5 @@ bar {
         urgent_workspace   #ffffff #900000
     }
 }
-exec i3-msg workspace 9
+#exec i3-msg workspace 9
 for_window [workspace="5"] floating enable
