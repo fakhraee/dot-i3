@@ -29,6 +29,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+# start mc
+bindsym $mod+apostrophe exec i3-sensible-terminal -e 'mc'
 # kill focused window
 bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
