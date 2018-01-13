@@ -32,7 +32,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start mc
 bindsym $mod+apostrophe exec i3-sensible-terminal -e 'mc'
 # start ncmpcpp
-bindsym $mod+bracketright exec i3-sensible-terminal -e 'ncmpcpp'
+bindsym $mod+bracketright exec i3-sensible-terminal -e sh -c 'screen -DRS ncmpcpp'
 # start weechat
 bindsym $mod+slash exec mlterm -e sh -c 'screen -DRS weechat'
 # kill focused window
