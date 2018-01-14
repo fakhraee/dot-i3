@@ -35,6 +35,8 @@ bindsym $mod+apostrophe exec i3-sensible-terminal -e 'mc'
 bindsym $mod+bracketright exec i3-sensible-terminal -e sh -c 'screen -DRS ncmpcpp'
 # start weechat
 bindsym $mod+slash exec mlterm -e sh -c 'screen -DRS weechat'
+# start passmenu
+bindsym $mod+p exec /usr/share/doc/pass/examples/dmenu/passmenu
 # kill focused window
 bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
