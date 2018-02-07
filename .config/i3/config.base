@@ -137,6 +137,8 @@ mode "resize" {
 bindsym $mod+z mode "resize"
 
 # border
+new_window none
+new_float none
 bindsym $mod+b border toggle
 
 ## Automatically putting clients on specific workspaces
@@ -173,11 +175,11 @@ bar {
     #status_command py3status -c ~/.config/i3status/config.laptop
     status_command i3blocks
     #mode <dock|hide|invisible>
-    mode dock 
+    mode hide
     #hidden_state <hide|show>
     hidden_state hide
     #modifier <Modifier>
-    modifier Mod1 
+    modifier Mod1
     #workspace_buttons yes
     font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
     #separator_symbol '00'
