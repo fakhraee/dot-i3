@@ -18,9 +18,9 @@ font pango:DejaVu Sans Mono 8
 # surf
 bindsym $mod+grave exec "surf https://www.google.com/"
 # note
-bindsym $mod+n exec "$HOME/bin/dmenu-n"
+bindsym $mod+n exec "$HOME/bin/dmenu_n"
 # search
-bindsym $mod+g exec "$HOME/bin/dmenu-search"
+bindsym $mod+g exec "$HOME/bin/dmenu_search"
 # rename
 bindsym $mod+m exec i3-input -F 'rename workspace to %s' -P 'New name: '
 # increase brightness
