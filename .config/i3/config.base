@@ -148,10 +148,7 @@ bindsym $mod+b border toggle
 exec dex -ae i3
 exec --no-startup-id setxkbmap -layout us,ir -option "grp:ctrls_toggle"
 exec --no-startup-id kbdd
-#exec --no-startup-id pasystray
-#exec clipit
-#exec nm-applet
-#exec flashpeak-slimjet
+exec --no-startup-id parcellite
 
 ## Focus follows mouse
 focus_follows_mouse yes
