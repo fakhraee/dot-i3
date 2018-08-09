@@ -7,7 +7,7 @@ font pango:DejaVu Sans Mono 8
 
 ## Keyboard bindings
 # surf
-bindsym $mod+grave exec "surf https://www.google.com/"
+bindsym $mod+grave exec "surf"
 # note
 bindsym $mod+n exec "$HOME/bin/dmenu_n"
 # search
