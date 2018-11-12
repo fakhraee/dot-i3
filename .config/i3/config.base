@@ -157,7 +157,7 @@ bar {
     #mode <dock|hide|invisible>
     mode hide
     #hidden_state <hide|show>
-    hidden_state hide
+    hidden_state show
     #modifier <Modifier>
     modifier Mod1
     #workspace_buttons yes
