@@ -1,6 +1,6 @@
 ## Variables
 set $mod Mod4
-workspace_layout stacking
+#workspace_layout stacking
 
 ## Fonts
 font pango:DejaVu Sans Mono 8 
