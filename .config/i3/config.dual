@@ -122,7 +122,7 @@ mode "resize" {
 bindsym $mod+z mode "resize"
 
 # border
-new_window none
+new_window pixel 1
 new_float none
 bindsym $mod+b border toggle
 
