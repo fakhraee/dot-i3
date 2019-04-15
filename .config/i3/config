@@ -7,32 +7,34 @@ workspace_layout stacking
 font pango:Terminus 10
 
 ## Keyboard bindings
-# surf
+# start dmenu (a program launcher)
+bindsym $mod+r exec "$HOME/bin/dmenu_run -fn 'Terminus-10' -b -i -p `date +%T`"
+# terminal
+bindsym $mod+Return exec i3-sensible-terminal
+# editor
+bindsym $mod+Shift+Return exec i3-sensible-terminal -e 'editor'
+# mc file manager
+bindsym $mod+apostrophe exec i3-sensible-terminal -e 'mc'
+# surf browser
 bindsym $mod+grave exec "surf"
-# note
-bindsym $mod+n exec "$HOME/bin/dmenu_n"
 # search
 bindsym $mod+g exec "$HOME/bin/dmenu_search"
+# start ncmpcpp
+bindsym $mod+bracketright exec i3-sensible-terminal -e sh -c 'screen -DRS ncmpcpp'
+# note
+bindsym $mod+n exec "$HOME/bin/dmenu_n"
 # rename
 bindsym $mod+m exec i3-input -F 'rename workspace to %s' -P 'New name: '
 # increase brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 # decrease brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20
-# start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-# start mc
-bindsym $mod+apostrophe exec i3-sensible-terminal -e 'mc'
-# start ncmpcpp
-bindsym $mod+bracketright exec i3-sensible-terminal -e sh -c 'screen -DRS ncmpcpp'
 # start weechat
 bindsym $mod+slash exec mlterm -e sh -c 'screen -DRS weechat'
 # start passmenu
 bindsym $mod+p exec /usr/share/doc/pass/examples/dmenu/passmenu
 # kill focused window
 bindsym $mod+Shift+q kill
-# start dmenu (a program launcher)
-bindsym $mod+r exec "$HOME/bin/dmenu_run -fn 'Terminus-10' -b -i -p `date +%T`"
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
