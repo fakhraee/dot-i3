@@ -57,7 +57,7 @@ markup=none
 #separator=false
 
 [bandwidth]
-instance=enp4s0
+instance=eth0
 interval=1
 
 # CPU usage
